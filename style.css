@@ -1,0 +1,53 @@
+body{
+    Margin: 0;
+    Padding: 24px;
+    Font-family: Arial, sans-serif;
+    Background: #10131a;
+    Color: #f4f6fb;
+}
+
+Header{
+    Text-align: center;
+    Margin-bottom: 30px;
+}
+
+Header h1{
+    Margin-bottom: 5px;
+}
+
+#connection-status {
+    Color: #aab4c5;
+    Font-size: 14px;
+}
+
+.dashboard {
+    Display: grid;
+    Grid-template-columns: repeat(
+        Auto-fit
+        Minmax(220px, 1fr)
+    );
+    Gap: 16px;
+    Max-width: 110px;
+    Margin: 0 auto;
+}
+
+.card {
+    Padding: 20px;
+    Background: #1c2230;
+    Border: 1px solid #30394b;
+    Border-radius: 12px;
+}
+
+.card h2{
+    Margin-top: 0;
+    Color: #aab4c5;
+    Font-size: 16px;
+    Font-weight: normal;
+}
+
+.card p {
+    Margin-bottom: 0;
+    Font-size: 28px;
+    Font-weight: bold;
+    Overflow-wrap: anywhere;
+}
