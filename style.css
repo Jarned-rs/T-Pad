@@ -1,53 +1,89 @@
-body{
-    Margin: 0;
-    Padding: 24px;
-    Font-family: Arial, sans-serif;
-    Background: #10131a;
-    Color: #f4f6fb;
+body {
+    margin: 0;
+    padding: 40px 24px;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background: #F5F5F2;
+    color: #202321;
 }
 
-Header{
-    Text-align: center;
-    Margin-bottom: 30px;
+header {
+    max-width: 1100px;
+    margin: 0 auto 36px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #DEDFD8;
 }
 
-Header h1{
-    Margin-bottom: 5px;
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+header p {
+    margin: 4px 0;
+    color: #686D68;
 }
 
 #connection-status {
-    Color: #aab4c5;
-    Font-size: 14px;
+    display: inline-block;
+    margin-top: 14px;
+    padding: 5px 10px;
+    background: #E8EDE6;
+    border-radius: 4px;
+    color: #52745C;
+    font-size: 13px;
 }
 
 .dashboard {
-    Display: grid;
-    Grid-template-columns: repeat(
-        Auto-fit
-        Minmax(220px, 1fr)
-    );
-    Gap: 16px;
-    Max-width: 110px;
-    Margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .card {
-    Padding: 20px;
-    Background: #1c2230;
-    Border: 1px solid #30394b;
-    Border-radius: 12px;
+    padding: 24px;
+    background: #FFFFFF;
+    border: 1px solid #E4E5DF;
+    border-radius: 6px;
 }
 
-.card h2{
-    Margin-top: 0;
-    Color: #aab4c5;
-    Font-size: 16px;
-    Font-weight: normal;
+.card h2 {
+    margin: 0 0 18px;
+    color: #686D68;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .card p {
-    Margin-bottom: 0;
-    Font-size: 28px;
-    Font-weight: bold;
-    Overflow-wrap: anywhere;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 24px 16px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .dashboard {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .card {
+        padding: 16px;
+    }
+
+    .card p {
+        font-size: 24px;
+    }
 }
