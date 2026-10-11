@@ -9,6 +9,12 @@
   -   BH1750 to track light intensity
   -   A BMI 270 as a gyroscope and accelerometer
 
+# The code
+- The code is a basic python script that collects the data and dumps it as a JSON file
+- The code also uses a modified BMI270 driver adapted by both AI and I to work with CircuitPython
+- The javascript attached to the website then interprets the JSON
+- This info is then sent to the dashboard
+
 # Photos
 Schematic:
 <img width="2191" height="1225" alt="image" src="https://github.com/user-attachments/assets/36f65ffd-ce72-48c6-93a3-255ff315f49b" />
