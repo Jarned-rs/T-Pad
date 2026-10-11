@@ -14,6 +14,7 @@
 - The code also uses a modified BMI270 driver adapted by both AI and I to work with CircuitPython
 - The javascript attached to the website then interprets the JSON
 - This info is then sent to the dashboard
+NOTE: the data in the site is example data
 
 # Photos
 Schematic:
