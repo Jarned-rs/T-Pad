@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 10.97h | 5 |
+| Week 1 | Tier 1 | 11.47h | 5 |
 
 ## Contents
 
@@ -53,7 +53,7 @@ The next step is to code the backend in both Python and JS to link the sensor da
 
 ### 2026-10-11 – Managed to finish up the project in time. Managed to borrow a laptop and did the whole of the javascript code done that will now update the website based of the JSON dump from the Python code. The pyt
 
-**4h**
+**4.5h**
 
 Managed to finish up the project in time. Managed to borrow a laptop and did the whole of the javascript code done that will now update the website based of the JSON dump from the Python code. The python code is basic but it's rigorous in it's testing and is made to help me when building the real hardware later on. It first initializes the sensors while testing them. Then, it gets the readings from the sensors every second and then dumps it alongside elapsed time.
 
@@ -68,3 +68,5 @@ The website has a brand new look after I talked with friends who all know coding
 ![Screenshot 2026-10-11 at 23.22.05](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/zYbpYI6JMRqIY2s3l72jvaU9umzX2Op0/4536329bb42243fe75988851c5595e67b6df7720447c1597ed07b2e2dc4f56bd.png)
 
 ![Screenshot 2026-10-11 at 23.23.39](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/zYbpYI6JMRqIY2s3l72jvaU9umzX2Op0/de42d52a3be148878c7f0fa4eb9ec891dacfb2c13238c6d156ab6f6b20b4c581.png)
+
+![Screenshot 2026-10-11 at 23.36.53](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/zYbpYI6JMRqIY2s3l72jvaU9umzX2Op0/986ddeb93877ec335297936e1511d2c6f8d0147a7b462e89faa44633d70390d7.png)
