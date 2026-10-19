@@ -1,5 +1,5 @@
 # T-Pad
-- The T-Pad is a basic telemetry module that will track different metrics using 4 main sensors and then send those metrics to a web dashboard. #
+- The T-Pad is a basic telemetry module that will track different metrics using 4 main sensors and then send those metrics to a web dashboard. 
 - I made this project as an intro into sensors to use as reference to future projects with sensors and data being fed back to a main dashboard.
 
 # How it works
