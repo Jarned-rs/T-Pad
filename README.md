@@ -13,9 +13,17 @@
 # The code
 - The code is a basic python script that collects the data and dumps it as a JSON file
 - The code also uses a modified BMI270 driver adapted by both AI and I to work with CircuitPython
-- The javascript attached to the website then interprets the JSON
+- The javascript attached to the website then interprets the JSON sent from the python code
 - This info is then sent to the dashboard
 NOTE: the data in the site is example data
+
+# How to build it yourself!
+- Download the files
+- Buy and manufacture the PCB
+- Buy the sensors and the 2040 Zero
+- Assemble and solder
+- Transfer all the code
+And then you have a fully functioning T-PAD
 
 # Photos
 Schematic:
