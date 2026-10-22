@@ -1,6 +1,3 @@
-Week,Tier,Parts funding
-Week 1,Tier 1,$30.00
-
 Part,What it's for,Qty,Unit,Total,Vendor
 PCB,The main board (Note: $5 coupon added which makes it $0),1,$0.10,$0.10,PCBWay
 BME280,Temperature and Humidity Sensor,1,$4.70,$4.70,AliExpress
@@ -8,7 +5,9 @@ RP2040,The main microcontroller,1,$4.24,$4.24,AliExpress
 INA 219,Power Supply Sensor,1,$1.34,$1.34,AliExpress
 BH1750,Light intensity sensor,1,$1.47,$1.47,AliExpress
 BMI 270,Accelerometer/Gyroscope,1,$4.53,$4.53,AliExpress
-Parts subtotal,—,—,—,$16.38,—
-Tax & shipping,—,—,—,$3.61,—
-Total,—,—,—,$19.99,—
-$10.01 left of the tier's funding,,,,,
+Parts subtotal,,,,$16.38,
+Tax & shipping,,,,$3.61,
+Total,,,,$19.99,
+Parts funding (Week 1 / Tier 1),,,,$30.00,
+Funding left,,,,$10.01,
+ 
